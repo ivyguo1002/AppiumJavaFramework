@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+    <listeners>
+        <listener class-name="utils.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Ivy/source/Java/PracticeAppiumFramework/src/test">
+        <classes>
+            <class name="preference.PreferenceDependancyTests">
+            </class>
+            <class name="preference.AdvancedPreferenceTests">
+
+            </class>
+        </classes>
+    </test>
+</suite>
